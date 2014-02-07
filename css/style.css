@@ -1,23 +1,9 @@
+/* Grep Mekaniske      */
+/* av Edison Menlo     */
+/* Svein Erik Farstad  */
+
 body {
 	padding: 0;
-}
-
-.carousel-inner {
-	position: fixed;
-	z-index: 0;
-}
-
-.bigwrap {
-	background: white;
-	z-index: 3;
-	position: relative;
-	padding-top: 60px;
-}
-
-
-.claim {
-position: relative;
-	z-index: 2;
 }
 
 h1, h2, h3, .featurette-heading {
@@ -27,13 +13,10 @@ h1, h2, h3, .featurette-heading {
 	line-height: 1.1;
 }
 
-.navbar-wrapper h1 {
-	color: white;
-}
-
 h1 span {
 	color: #339999;
 }
+
 a {
 	color: #339999;
 }
@@ -42,32 +25,32 @@ a:hover {
 	color: #339999;
 }
 
-.claim .lead {
-	margin-top: 20px;
-}
-.claim .container {
-	max-width: 60%;
-}
-
-.rightpic {
-	-webkit-box-shadow: 10px 10px 0px 0px rgba(51, 153, 153, 1);
--moz-box-shadow:    10px 10px 0px 0px rgba(51, 153, 153, 1);
-box-shadow:         10px 10px 0px 0px rgba(51, 153, 153, 1);
+.bigwrap {
+	background: white;
+	z-index: 3;
+	position: relative;
+	padding-top: 60px;
 }
 
-.leftpic {
-		-webkit-box-shadow: -10px 10px 0px 0px rgba(51, 153, 153, 1);
--moz-box-shadow:    -10px 10px 0px 0px rgba(51, 153, 153, 1);
-box-shadow:         -10px 10px 0px 0px rgba(51, 153, 153, 1);
+/* Banner */
+.carousel-inner {
+	position: fixed;
+	z-index: 0;
+}
+.navbar-wrapper  {
+	background: url("../img/logo.png");
+	opacity: 0.7;
+	display: block;
+	height: 65px;
+	margin: 35px 0 0 60px;
+	width: 238px;
 }
 
-footer.row {
-	margin: 60px 0 auto;
-	
-}
 
-footer a, footer a:hover {
-	color: rgba(255,255,255,0.5);
+/* Claim */
+.claim {
+position: relative;
+	z-index: 2;
 }
 
 .claim, footer {
@@ -75,16 +58,45 @@ footer a, footer a:hover {
 	padding: 60px 0;
 	color: white;
 }
+
+div.pynt2 {
+	background: url("../img/element.png") #339999;
+}
+
 .navbar-container h1, .claim h1 {
 	color: white;
 	display: inline-block;
 }
+
 .claim h1 {
 	margin-top: 0;
 	line-height: 1.3;
 	font-weight: normal;
 }
 
+.claim .lead {
+	margin-top: 20px;
+}
+
+.claim .container {
+	max-width: 60%;
+}
+
+
+/* Content */
+.rightpic {
+	-webkit-box-shadow: 10px 10px 0px 0px rgba(51, 153, 153, 1);
+	-moz-box-shadow:    10px 10px 0px 0px rgba(51, 153, 153, 1);
+	box-shadow:         10px 10px 0px 0px rgba(51, 153, 153, 1);
+}
+
+.leftpic {
+	-webkit-box-shadow: -10px 10px 0px 0px rgba(51, 153, 153, 1);
+	-moz-box-shadow:    -10px 10px 0px 0px rgba(51, 153, 153, 1);
+	box-shadow:         -10px 10px 0px 0px rgba(51, 153, 153, 1);
+}
+
+/* Contact */
 .glyphicon {
 	margin-right: 5px;
 }
@@ -94,17 +106,70 @@ footer a, footer a:hover {
 	color: #339999;
 	padding: 0 15px;
 }
+
 .col-centered{
     float: none;
     margin: 0 auto;
 }
+
 .people .col-lg-4 {
 	text-align: left;
 }
+
 .people .col-lg-4 p {
 	margin-left: 0;
 	margin-right: 0;
 }
+
 .people .col-lg-4 h4 {
-	margin-top: 33px;
+	margin-top: 27px;
+}
+
+/* Footer */
+footer a, footer a:hover {
+	color: rgba(255,255,255,0.5);
+}
+div.pynt {
+	background: url("../img/frise.png");
+	background-repeat: repeat-x;
+	height: 50px;
+	background-position: bottom;
+	margin-top: 90px;
+}
+
+
+/* Responsive */
+@media (max-width: 992px){
+	.navbar-wrapper {
+		margin: 35px auto;	
+	}
+	.claim .container {
+	max-width: 90%;
+	}
+	.claim {
+		padding: 40px 0;
+	}
+	.rightpic {
+		margin-top: 30px;
+	}
+	.leftpic {
+		margin-bottom: 30px;
+	}
+	.featurette-divider {
+		margin: 40px 0;
+	}
+	.carousel {
+		height: 400px;
+	}
+
+	.bigwrap .featurette-heading {
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 768px) {
+	h1, h2, h3, .featurette-heading {
+		font-size: 28px;
+	}
+
 }
