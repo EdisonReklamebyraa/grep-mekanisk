@@ -1,8 +1,34 @@
+body {
+	padding: 0;
+}
+
+.carousel-inner {
+	position: fixed;
+	z-index: 0;
+}
+
+.bigwrap {
+	background: white;
+	z-index: 3;
+	position: relative;
+	padding-top: 60px;
+}
+
+
+.claim {
+position: relative;
+	z-index: 2;
+}
+
 h1, h2, h3, .featurette-heading {
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	font-weight: bold;
 	color: rgb(51,204,204);
 	line-height: 1.1;
+}
+
+.navbar-wrapper h1 {
+	color: white;
 }
 
 h1 span {
@@ -14,6 +40,13 @@ a {
 
 a:hover {
 	color: #339999;
+}
+
+.claim .lead {
+	margin-top: 20px;
+}
+.claim .container {
+	max-width: 60%;
 }
 
 .rightpic {
