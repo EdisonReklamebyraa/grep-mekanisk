@@ -38,7 +38,7 @@ body {
 /* Carousel base class */
 .carousel {
   height: 500px;
-  margin-bottom: 60px;
+
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -65,6 +65,7 @@ body {
 
 /* Pad the edges of the mobile views a bit */
 .marketing {
+	margin-top: 60px;
   padding-right: 15px;
   padding-left: 15px;
 }
@@ -167,6 +168,7 @@ body {
 
 @media (min-width: 992px) {
   .featurette-heading {
-    margin-top: 120px;
+    margin-top: 90px;
+    margin-bottom: 30px;
   }
 }
