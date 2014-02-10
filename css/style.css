@@ -47,7 +47,12 @@ a:hover {
 	display: block;
 	height: 65px;
 	margin: 35px 0 0 60px;
-	width: 238px;
+	width: 128px;
+}
+.navbar-wrapper a {
+	display: block;
+	width: 100%;
+	height: 100%;
 }
 
 
@@ -206,8 +211,8 @@ ul span {
 	margin-right: 0;
 }
 
-.peeps img {
-	
+iframe {
+	width: 100%;
 }
 
 .people .lead {
@@ -238,6 +243,15 @@ div.pynt {
 
 
 /* Responsive */
+
+@media (max-width: 1200px){ 
+		.peeps {
+		margin-bottom: 30px;
+	}
+
+	
+}
+
 @media (max-width: 992px){
 	.navbar-wrapper {
 		margin: 35px auto;	
@@ -281,6 +295,7 @@ div.pynt {
 	footer .text-center, footer .text-right {
 		text-align: left;
 	}
+
 	
 
 }
