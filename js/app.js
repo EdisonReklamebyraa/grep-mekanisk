@@ -14,7 +14,7 @@ $( document ).ready(function() {
     var is = setInterval(resize, 100);
 
     function resize() {
-        var $v = $("#TopVideo video");
+        var $v = $("#TopVideo .vjs-tech");
         if($v){
             var w = $v.width();
             var h = $v.height();
