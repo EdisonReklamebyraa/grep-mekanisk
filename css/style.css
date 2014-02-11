@@ -300,10 +300,6 @@ div.pynt {
 
 }
 
-.vjs-control-bar{
-    display: none;
-}
-
 @media (max-width: 768px) {
 	h1, h2, h3, .featurette-heading {
 		font-size: 28px;
