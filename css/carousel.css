@@ -163,7 +163,7 @@ body {
 
 }
 
-#TopVideo video.loaded{ 
+#TopVideo video{ 
 
     background:transparent url('../img/top.png') no-repeat 0 0; 
      -webkit-background-size:cover; 
