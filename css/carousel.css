@@ -160,15 +160,16 @@ body {
     left: 50%;
     margin-left: -640px;
     margin-top: -320px;
-   
-    
-    
+
 }
 
-#TopVideo video { 
+#TopVideo video.loaded{ 
 
-   background:transparent ; 
-
+    background:transparent url('../img/top.png') no-repeat 0 0; 
+     -webkit-background-size:cover; 
+     -moz-background-size:cover; 
+     -o-background-size:cover; 
+     background-size:cover; 
 }
 
 
