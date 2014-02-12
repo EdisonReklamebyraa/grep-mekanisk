@@ -162,6 +162,11 @@ h3.whited {
 	height: 50px;
 	margin: 10px 40px 10px 0px;
 	max-width: 100%;
+	transition: opacity 0.2s;
+	-webkit-transition: opacity 0.2s; /* Safari */
+}
+.referanser img:hover {
+	opacity: 0.5;
 }
 
 /* Lister */
