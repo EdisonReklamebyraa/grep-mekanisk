@@ -24,7 +24,7 @@ $( document ).ready(function() {
                 clearInterval(is);
                 $v.addClass("loaded");
                 is = false;
-                $v.get(0).volume = 0.1;
+        
             }
 
         }
