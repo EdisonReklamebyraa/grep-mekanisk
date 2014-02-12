@@ -163,18 +163,20 @@ h3.whited {
 	margin-bottom: 20px;
 }
 ul {
-	margin: 0 0 30px 0;
-	padding: 0 0 0 29px;
+	margin: 0 0 0 0;
 	font-weight: 200;
 	font-size: 21px;
 }
 ul li {
 	list-style: none;
 }
-ul span {
+ul .glyphicon {
 	color: #339999;
-	padding-right: 7px;
-	margin-left: -25px;
+	margin-left: -38px;
+	padding-right: 12px;
+}
+span.inLi {
+	
 }
 
 .kunder h4 {
@@ -209,6 +211,10 @@ ul span {
 	text-align: left;
 	margin-left: 0;
 	margin-right: 0;
+}
+
+#peeps .peeps {
+	padding-left: 0;
 }
 
 iframe {
