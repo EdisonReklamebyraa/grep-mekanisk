@@ -31,11 +31,7 @@ a:hover {
 	position: relative;
 	padding-top: 60px;
 }
-.marketing {
-	background: white;
-	z-index: 4;
-	position: relative;
-}
+
 .row {
 	margin-left: 0;
 	margin-right: 0;
@@ -48,7 +44,7 @@ a:hover {
 }
 .navbar-wrapper  {
 	background: url("../img/logo.png");
-	opacity: 0.8;
+	opacity: 0.85;
 	display: block;
 	height: 65px;
 	margin: 35px 0 0 60px;
@@ -129,6 +125,11 @@ position: relative;
 
 
 /* Referanser */
+
+.no-margin {
+	margin-bottom: 0;
+}
+
 h3.whited {
 	color: white;
 	margin: 20px auto 20px auto;
@@ -258,6 +259,10 @@ div.pynt {
 @media (max-width: 1200px){ 
 		.peeps {
 		margin-bottom: 30px;
+	}
+	
+	.carousel-inner {
+		position: static;
 	}
 
 	
