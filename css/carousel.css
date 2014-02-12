@@ -169,7 +169,7 @@ body {
 
 #TopVideo video { 
 
-   background:transparent url('./img/top.png') no-repeat 0 0; 
+   background:transparent url('../img/top.png') no-repeat 0 0; 
    -webkit-background-size:cover; 
    -moz-background-size:cover; 
    -o-background-size:cover; 
