@@ -275,7 +275,7 @@ div.pynt {
 		height: 400px;
 	}
 	.carousel-inner {
-		position: relative;
+		position: static;
 	}
 
 	.bigwrap .featurette-heading {
