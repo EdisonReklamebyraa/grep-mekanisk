@@ -124,6 +124,18 @@ position: relative;
 }
 
 
+.utevideo  {
+	width: 100%    !important;
+  height: auto   !important;
+  max-width: 500px;
+}
+
+.utevideo video {
+	width: 100%;
+	height: auto;
+	margin-bottom: -5px;
+}
+
 /* Referanser */
 
 .no-margin {
